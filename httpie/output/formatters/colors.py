@@ -16,7 +16,7 @@ from httpie.compat import is_windows
 from httpie.plugins import FormatterPlugin
 
 
-AUTO_STYLE = 'auto'  # Follows terminal ANSI color styles
+AUTO_STYLE = 'monokai'  # Follows terminal ANSI color styles
 DEFAULT_STYLE = AUTO_STYLE
 SOLARIZED_STYLE = 'solarized'  # Bundled here
 if is_windows:
